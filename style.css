@@ -5,36 +5,36 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.about {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.about img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.about .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .about {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.task-name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -98,12 +98,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-h3.new-task {
+h3.new-task-title {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#new-task-input {
   width: 318px;
 }
 
@@ -136,13 +136,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+button.delete-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.delete-button img:hover {
   transform: rotateZ(0);
 }
 
@@ -157,11 +157,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.item-edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.item-edit label {
   display: none;
 }
