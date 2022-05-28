@@ -40,10 +40,6 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
-  display: flex;
-}
-
 ul {
   margin: 0;
   padding: 0px;
