@@ -40,6 +40,10 @@ body {
   flex-grow: 1;
 }
 
+.new-task-wrapper {
+  display: flex;
+}
+
 ul {
   margin: 0;
   padding: 0px;
